@@ -11,24 +11,25 @@ a { text-decoration: none; color: white; }
 section { width: 100%; overflow: hidden; }
 .container { margin: 0px auto; width: 1140px; height: 100%; z-index: 0; }
 h2 { font-size: 46px; font-weight: normal; }
-#block-firstPage { height: 1000px; width: 100%; background-color: rgb(34, 181, 115); font-size: 100px; color: white; text-align: center; }
+#block-firstPage { height: 1000px; width: 100%; background-color: rgb(34, 181, 115); font-size: 100px; color: white; text-align: center;background: url(../imges/2.jpg); }
+#block-firstPage p { display: block; top: 394.5px; }
 .blockTitle { display: none; position: absolute; margin: 0px auto; width: 100%; }
 #fstPage-down { position: absolute; bottom: 16px; height: 18px; width: 100%; }
-#fstPage-down a { display: block; height: 18px; width: 32px; margin: 0px auto; background: transparent url('imges/down.png') no-repeat scroll center center; }
-#block-nav { position: relative; top: 0px; height: 52px; background-color: rgb(66, 71, 75); color: white; }
+#fstPage-down a { display: block; height: 18px; width: 32px; margin: 0px auto; background: transparent url('../imges/down.png') no-repeat scroll center center; }
+#block-nav { position: relative; top: 0px; height: 52px; background-color: rgb(66, 71, 75); color: white;z-index: 1; position: relative; }
 #block-nav a { padding: 0px 25px; font-size: 14px; line-height: 52px; cursor: pointer; z-index: 1; color: white; }
 #block-nav a:hover { color: rgb(153, 153, 153); }
 #logo { display: inline-block; }
-#block-intro { height: auto; width: 100%; background-color: rgb(24, 137, 197); padding: 60px 0px 100px; }
+#block-intro { height: auto; width: 100%; background-color: rgb(24, 137, 197); padding: 60px 0px 100px;margin-top: 0px; }
 #intro-icon { height: 300px; width: 100%; line-height: 300px; }
 .link { display: inline-block; height: 100px; width: 100px; text-indent: -9999em; transition: all 0.4s ease-in 0s; }
 .link:hover { transform: rotate(360deg); }
 .message{ text-indent: 2em; }
-#link-github { background: transparent url('imges/github.png') no-repeat scroll center center; margin-left: 76px; }
-#link-linkedin { background: transparent url('imges/linkedin.png') no-repeat scroll center center; margin-left: 76px; }
+#link-github { background: transparent url('../imges/github.png') no-repeat scroll center center; margin-left: 76px; }
+#link-linkedin { background: transparent url('../imges/linkedin.png') no-repeat scroll center center; margin-left: 76px; }
 #myPhoto { height: 270px; width: 270px; display: inline-block; margin: 0px 0px 0px 78px; }
-#link-blog { background: transparent url('imges/blog.png') no-repeat scroll center center; margin-left: 78px; }
-#link-email { background: transparent url('imges/email.png') no-repeat scroll center center; margin-left: 76px; }
+#link-blog { background: transparent url('../imges/blog.png') no-repeat scroll center center; margin-left: 78px; }
+#link-email { background: transparent url('../imges/email.png') no-repeat scroll center center; margin-left: 76px; }
 #intro-text { display: inline-block; margin: 80px 0px 0px 130px; color: white; }
 #intro-text li { height: 30px; }
 #intro-text ul li a { display: inline-block; }
@@ -36,9 +37,9 @@ h2 { font-size: 46px; font-weight: normal; }
 #intro-text ul li span { display: inline-block; text-align: right; width: 70px; }
 #intro-text div { display: inline-block; width: 550px; margin-left: 120px; }
 #intro-text > div > p { margin-bottom: 26px; }
-#block-skill { height: auto; width: 100%; background-color: rgb(156, 88, 182); color: rgb(255, 255, 255); padding-bottom: 160px; }
+#block-skill { height: auto; width: 100%; background-color: rgb(156, 88, 182); color: rgb(255, 255, 255); padding-bottom: 160px;background: url(../imges/3.jpg);height: 900px; }
 #block-skill .skill-title { width: 300px; margin: 0px auto; padding-top: 100px; text-align: center; }
-#block-skill .skills { height: auto; width: auto; }
+#block-skill .skills { height: auto; width: auto;color: #ff9800 }
 #block-skill ul { display: inline-block; height: auto; width: 210px; margin: 80px 0px 0px 56px; border: 2px solid rgb(255, 255, 255); font-size: 20px; font-family: "Microsoft YaHei light"; text-align: center; vertical-align: top; }
 #block-skill li { height: 36px; line-height: 36px; }
 #block-skill li:first-child { background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); }
@@ -49,7 +50,7 @@ h2 { font-size: 46px; font-weight: normal; }
 #block-workEXP .timebox { margin-left: 194px; font-size: 29px; }
 #block-workEXP .timebox li { display: inline-block; margin-top: 5px; }
 #block-workEXP .time1 { margin-left: 110px; }
-#block-workEXP .timeline { height: 27px; width: 868px; margin-left: 42px; background: transparent url('imges/timeline.png') no-repeat scroll center center; }
+#block-workEXP .timeline { height: 27px; width: 868px; margin-left: 42px; background: transparent url('../imges/timeline.png') no-repeat scroll center center; }
 #block-workEXP .workbox { margin-left: 194px; }
 #block-workEXP .workbox li { display: inline-block; width: 310px; vertical-align: top; }
 #block-workEXP .workbox li label { display: block; }
@@ -63,9 +64,9 @@ h2 { font-size: 46px; font-weight: normal; }
 #block-prjEXP .prj .prj-logo { display: block; margin: 0px auto; height: 180px; width: 180px; border-radius: 50%; }
 #block-prjEXP .prj .prj-title { height: auto; width: 240px; margin: 20px 0px; font-size: 26px; text-align: center; }
 #block-prjEXP .prj .prj-intro { height: auto; width: 240px; font-size: 20px; text-indent: 1em; }
-#block-prjEXP #prj-helpmechoose .prj-logo { background: rgb(237, 100, 97) url('imges/helpmechoose.png') no-repeat scroll center center; border: 4px solid rgb(255, 255, 255); }
+#block-prjEXP #prj-helpmechoose .prj-logo { background: rgb(237, 100, 97) url('../imges/helpmechoose.png') no-repeat scroll center center; border: 4px solid rgb(255, 255, 255); }
 #block-prjEXP #prj-navFixed .prj-title a:hover { border-bottom: 3px solid white; }
-#block-prjEXP #prj-navFixed .prj-logo { background: rgb(156, 88, 182) url('imges/navfixed.png') no-repeat scroll center center; border: 4px solid rgb(255, 255, 255); }
-#block-prjEXP #prj-integralSystem .prj-logo { background: rgb(22, 204, 112) url('imges/integralsystem.png') no-repeat scroll center center; border: 4px solid rgb(255, 255, 255); }
-#block-wantMore { width: 100%; background-color: rgb(237, 100, 97); color: rgb(255, 255, 255); }
-#block-wantMore > p { display: block; position: relative; margin: 0px auto; width: 100%; text-align: center; font-size: 30px; }
+#block-prjEXP #prj-navFixed .prj-logo { background: rgb(156, 88, 182) url('../imges/navfixed.png') no-repeat scroll center center; border: 4px solid rgb(255, 255, 255); }
+#block-prjEXP #prj-integralSystem .prj-logo { background: rgb(22, 204, 112) url('../imges/integralsystem.png') no-repeat scroll center center; border: 4px solid rgb(255, 255, 255); }
+#block-wantMore { width: 100%; background-color: rgb(237, 100, 97); color: rgb(255, 255, 255);height: 1400px; background: url(../imges/1.jpg); color: #ff9800;background-size: 1920px 1000px; }
+#block-wantMore > p { display: block; position: relative; margin: 0px auto; width: 100%; text-align: center; font-size: 100px;top: 395px }

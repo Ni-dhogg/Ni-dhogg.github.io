@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="renderer" content="webkit"> 
 	<title>Nidhogg的简介</title>
-	<link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
-	<link rel="stylesheet" href="index.css"/>
+	<link rel="icon" type="image/x-icon" href="../favicon/favicon.ico">
+	<link rel="stylesheet" href="./css/index.css"/>
 	<script src="JS/jquery-1.11.1.min.js"></script>
 	<script src="JS/navfixed-1.0.1.min.js"></script>
 	<script src="JS/main.js"></script>
@@ -16,13 +16,13 @@
 </head>
 <body cz-shortcut-listen="true">
 <!-- 顶部Hello world 开始-->
-	<section id="block-firstPage" style="height: 1000px; background: url(imges/2.jpg);">
-		<p class="blockTitle" style="display: block; top: 394.5px;">Hello World</p>
+	<section id="block-firstPage">
+		<p class="blockTitle">Hello World</p>
 		<div id="fstPage-down"><a href="#block-intro" hidefocus="true"></a></div>
 	</section>
 <!-- 顶部Hello woeld 结束-->
 <!-- 固定导航栏 开始 -->
-	<section id="block-nav" style="z-index: 1; position: relative;">
+	<section id="block-nav" styl>
 		<header class="container">
 			<a class="fl" href="#block-firstPage" id="logo" hidefocus="true">Hello World</a>
 			<nav class="fr">
@@ -36,46 +36,44 @@
 	</section>
 <!-- 固定导航栏 结束 -->
 <!-- 个人信息 开始 -->
-	<section id="block-intro" style="margin-top: 0px;">
+	<section id="block-intro">
 		<div class="container">
 			<div id="intro-icon">
-				<a class="link" href="http://github.com/jasinyip" id="link-github" hidefocus="true">GitHub</a>
+				<a class="link" id="link-github" hidefocus="true">GitHub</a>
 				<img id="myPhoto" src="imges/myphoto.png">
 				<a class="link" href="http://blog.csdn.net/ni_dhogg" id="link-blog" hidefocus="true">Blog</a>
 				<a class="link" href="#" id="link-email" >E-mail</a>
 			</div>
-			
+
 			<div id="intro-text">
 				<ul class="fl">
-					<li><span>姓名</span> | 王海荣  </li>
+					<li><span>姓名</span> | Nidhogg  </li>
 					<li><span>手机</span> | 17691170613</li>
 					<li><span>邮箱</span> | ni-dhogg@foxmail.com</li>
 					<li><span>年龄</span> | 24岁</li>
 					<li><span>学历</span> | 本科</li>
 					<li><span>爱好</span> | 编程</li>
-					<li><span>兴趣</span> | 游戏解说-网络配音-国际象棋人机3级</li>
-					<li><span>所在地</span> | 中国 - 上海</li>
-					<li><span>GitHub</span> | <a href="https://github.com/Ni-dhogg/Nidhogg" hidefocus="true">点击进入</a> </li>
+					<li><span>所在地</span> | 中国 - 杭州</li>
+					<li><span>GitHub</span> | <a hidefocus="true">点击进入</a> </li>
 					<li><span>Blog</span> | <a href="http://blog.csdn.net/ni_dhogg" hidefocus="true">点击进入</a></li>
 				</ul>
-				<div class="fr" style="width: 540px;">
-					<p class="message">我是一个性格幽默的人,我喜欢研究所碰到的各种技术，热爱编程，有 Geek 精神,我有时间概念，能在约定时间内保证完成任务;</p>
+				<div class="fr">
+					<p class="message">我喜欢研究所碰到的各种技术，热爱编程，有 Geek 精神,我有时间概念，能在约定时间内保证完成任务;</p>
 					<p class="message">2年前端开发经验，熟悉 HTML、CSS、Javascript、移动端流式布局、媒体查询、能熟练开发符合 W3C 标准的页面，标签语义化,掌握闭包, jQuery 框架,原生JS,有良好的编码习惯,编程模块化;
 					<p class="message">掌握基础面向对象的编程模式,有 php 语法基础，对服务器端与前端交互有一定了解，能够配合后端程序员完成相关工作;</p>
-					<p class="message">努力在未来工作中学习到核心的node.js,立志成为全栈攻城狮,加班重度爱好者,听到加班比发工资还开心;</p>     
-					<p style="color: #ff9800;font-size: 25px;"><strong>PS:</strong>可以接受长期出差,与加班;</p>
+					<p class="message">努力在未来工作中学习到核心的node.js,立志成为全栈攻城狮;</p>     
 				</div>
 			</div>
 		</div>
 	</section>
 <!-- 个人信息 结束 -->
 <!-- 专业知识 开始 -->
-	<section id="block-skill" style="background: url(imges/3.jpg);height: 900px;">
+	<section id="block-skill" style="">
 		<div class="container">
 			<div class="skill-title">
 				<h2>专 业 技 能</h2>
 			</div>
-			<div class="skills"  style="color: #ff9800">
+			<div class="skills">
 				<ul class="skill-lang">
 					<li>语言</li>
 					<li>HTML(5)</li>
@@ -97,11 +95,13 @@
 					<li>框架</li>
 					<li>jQuery</li>
 					<li>Bootstrap</li>
+					<li>Angular</li>
+					<li>Swiper</li>
 					<li>zepto</li>
 				</ul>
 				<ul class="skill-tech">
 					<li>正在学习</li>
-					<li>微信小程序,公众号开发</li>
+					<li>微信开发</li>
 					<li>Node.js</li>
 					<li>ECMA6</li>
 					<li>Linux</li>
@@ -118,19 +118,19 @@
 			</div>
 			<div class="workEXP-main">
 				<ul class="timebox">
-					<li class="time0">2012.09 - Now</li>
-					<li class="time1">2014.03 - Now</li>
+					<li class="time0">2015.2 - 2016.9</li>
+					<li class="time1">2017.1 - Now</li>
 				</ul>
 				<div class="timeline"></div>
 				<ul class="workbox">
 					<li class="work-intro0">
-						<label class="work-place">广东轻工职业技术学院</label>
-						<label class="work-position">楼宇智能化工程技术 专业</label>
-						<label class="work-do"></label>
+						<label class="work-place">科尔教育投资公司</label>
+						<label class="work-position">前端攻城狮</label>
+						<label class="work-do">负责网站维护,代码重构,迭代更新;</label>
 					</li>
 					<li class="work-intro1">
-						<label class="work-place">工学咨询工作室</label>
-						<label class="work-position">前端工程师 兼 PM</label>
+						<label class="work-place">米洛软件服务公司</label>
+						<label class="work-position">前端工程师</label>
 						<label class="work-do">负责网站交互设计、网站前端界面实现；与甲方交涉、与甲方讨论及分析需求、流程、可行性评估等;
 </label>
 					</li>
@@ -143,41 +143,34 @@
 	<section id="block-prjEXP">
 		<div class="container">
 			<div class="prjEXP-title">
-				<h2>项 目 经 验</h2>
+				<h2>线 上 项 目 </h2>
 			</div>
 			<ul class="prjs">
 				<li class="prj" id="prj-helpmechoose">
 					<div class="prj-logo"></div>
-					<h3 class="prj-title">帮我选</h3>
-					<p class="prj-intro">一个帮助选择困难症人群选择吃什么的网站;
-项目为独立开发项目;
-</p>
+					<h3 class="prj-title">蒙牛客户沟通平台</h3>
+					<p class="prj-intro">针对蒙牛经销商搭建的对内平台,完成客户心生,信息资讯,管理思想,时间分享,等几大模块</p>
 				</li>
 
 				<li class="prj" id="prj-navFixed">
 					<div class="prj-logo"></div>
-					<h3 class="prj-title">navFixed 插件</h3>
-					<p class="prj-intro">一款超轻量级的 jQuery 插件;
-它可以让原本不是在顶部的导航条，在滚动到它的位置时固定在顶部;
-本页的导航条也使用此插件;
-</p>
+					<h3 class="prj-title">雪球读书</h3>
+					<p class="prj-intro">雪球读书APP 是一款为用户追求极致体验的免费原创小说阅读器,囊括了海量精品全本小说,</p>
 				</li>
 
 				<li class="prj" id="prj-integralSystem">
 					<div class="prj-logo"></div>
-					<h3 class="prj-title">工学积分系统</h3>
-					<p class="prj-intro">为工学咨询工作室做的积分系统，包括后台管理系统，以及微信公众平台的开发;
-项目中主要工作是前端及PM，与两名php程序员一起开发;
-</p>
+					<h3 class="prj-title">蒙牛甄享汇</h3>
+					<p class="prj-intro">对于饮品纯甄,独立开发的产品页面,包括品牌活动,积分商城,会员中心,几大模块;</p>
 				</li>
 			</ul>
 		</div>
 	</section>
 	<!-- 项目经验 结束 -->
 	<!-- 联系邮箱 -->
-	<section id="block-wantMore" style="height: 1400px; background: url(imges/1.jpg); color: #ff9800;background-size: 1920px 1000px">
-		<p style="top: 395px;font-size: 100px">召唤方式</p>
-		<p style="font-size: 100px">ni-dhogg@foxmail.com</p>
+	<section id="block-wantMore">
+		<p>召唤方式</p>
+		<p>ni-dhogg@foxmail.com</p>
 	</section>
 </body>
 </html>
